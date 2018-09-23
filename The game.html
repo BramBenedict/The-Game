@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+alert("Welkom, je bevind jezelf in het bos je bent met een paar vrienden op stap je besloot vervolgens om in het bos te kamperen maar het verliep niet zoals je gedacht. Je komt achter dat je elke keer wordt gevolg/bekeken. De bedoeling is om uiteindelijk te ontsnappen van degene die je volgt/stalkt. In dit spel worden er multiplechoice vragen gestelt antwoord dus aub met HOOFDLETTER A, of B  ")
+	var Eerste = prompt ('je bewandelt het bos met een paar vrienden ineens heb je het gevoel dat je wordt bekeken wat doe je dan, \n A, je blijft doen wat de planning is (dus in het bos blijven en kamperen.) \n B, je gaat twijfelen in de planning omdat je bang bent.')
+	//vragen
+		var vraag
+	 if(Eerste == "A"){
+	 vraag = 1
+	 }else{
+	 vraag = 8
+	}
+	if(vraag == 1){
+ var vraag1 = prompt('je gaat dan de planning volgen, uiteindelijk zie je degene die je achtervolgt je wordt bang jij bent de eerste die de random man in het bos ziet je vrienden hebben geen idee waar jij het over hebt. Wat doe je dan? \n A, Je gaat je vrienden waarschuwen. \n B, Je vertelt je vrienden dat het toch niet zo een goed idee is om midden in het bos te kamperen omdat je iets heb gezien. ')
+ }
+ if (vraag1 == "A"){
+ vraag = 2
+ }
+else if(vraag1 =="B"){
+ 	vraag = 12
+}
+ 						//
+ if(vraag == 2){
+ var vraag2 = prompt('Je vrienden komen achter dat degene die jullie achtervolgen een na aper Jason Voorhees is met masker en all hij achtervolgt jullie nu wat doen jullie nu? \n A, je gaat hem probereren aan te pakken.\n B, je rent heel bang weg.  ')
+}
+
+ if (vraag2 == "A"){
+ alert("Je vertelt de politie wat er gebeurd is, de killer heeft blijkbaar een hut in de buurt waar jullie geweest zijn daarom zat tie achter jullie aan. In de hut heeft de politie nog meer lichamen gevonden, de politie bedankt jullie voor de uitvinding.")
+ }
+else if(vraag2 =="B"){
+ alert("Jullie proberen met zn alle te rennen omdat de killer allemaal traps hebben geplaats in het bos en jullie de bos niet zo goed kennen rennen jullie allemaal andere kanten op. Jullie zijn allemaal in een andere locatie. En natuurlijk zoals alle horror films uit elkaar gaan is niet het beste idee. Jullie vallen allemaal een voor een in zijn traps, gruwelijk traps zo zijn jullie dood gegaan niemand kan jullie lichamen vinden. GAME OVER.")
+}
+ 						//
+ if(vraag == 2){
+ var vraag7 = prompt('het lukt jullie om de killer te verslaan hij ligt levenloos neer wat doen jullie? \n A, je gaat aan de politie vertellen wat jullie hebben meegemaakt en de killer te arresteren. \n B, Je laat hem gewoon daar liggen ')
+ }
+ if (vraag7 == "B"){
+ alert("Hij leeft nog maar dat weten jullie niet want jullie kijken allemaal andere kant op jullie zijn moe en blij tegelijketijd. Hij staat op pak een speer en spiest jullie alle drie jullie zijn dood. GAME OVER ")
+ }
+else if (vraag7 == "A"){
+ alert("Je vertelt de politie wat er gebeurd is, de killer heeft blijkbaar een hut in de buurt waar jullie geweest zijn daarom zat tie achter jullie aan. In de hut heeft de politie nog meer lichamen gevonden, de politie bedankt jullie voor de uitvinding.  ")
+ }
+ 						//
+ if(vraag == 8){
+ var vraag8 = prompt('Jullie gaan met zn alle twijfelen of het een goed idee is om in het bos te kamperen. In de verte zie je een hut, een kleine hut, je vrienden vragen aan jou van of we het zouden checken. Wat doe je? \n A, je gaat naar de hut om het te bekijken. \n B, Je gaat wegblijven van de hut om verder te kamperen.')
+ }
+ if (vraag8 == "A"){
+ alert("Je ziet de killer op jullie afrennen omdat jullie zo bang zijn kunnen jullie niet bewegen. Vervolgens vermoordt de killer jullie allemaal en brengt hij jullie lichamen naar zijn hut. GAME OVER")
+ }
+else if(vraag8 =="B"){
+ 	vraag = prompt("Je vrienden komen achter dat degene die jullie achtervolgen een na aper Jason Voorhees is met masker en all hij achtervolgt jullie nu wat doen jullie nu? \n A, je gaat hem probereren aan te pakken.\n B, je rent heel bang weg.")
+}
+  if (vraag8 == "A"){
+		alert("Je ziet de killer op jullie afrennen omdat jullie zo bang zijn kunnen jullie niet bewegen. Vervolgens vermoordt de killer jullie allemaal en brengt hij jullie lichamen naar zijn hut. GAME OVER")
+	}
+else if (vraag8 == "B")
+alert("Jullie proberen met zn alle te rennen omdat de killer allemaal traps hebben geplaats in het bos en jullie de bos niet zo goed kennen rennen jullie allemaal andere kanten op. Jullie zijn allemaal in een andere locatie. En natuurlijk zoals alle horror films uit elkaar gaan is niet het beste idee. Jullie vallen allemaal een voor een in zijn traps, gruwelijk traps zo zijn jullie dood gegaan niemand kan jullie lichamen vinden. GAME OVER.")
+ 						//
+ if(vraag == 12){
+ var vraag12 = alert("jullie lopen terug naar waar jullie vandaan kwamen, stappen in jullie auto en je rijdt weg. Onderweg zie je die figuur die jullie de hele tijd zit te stalken, hij kijkt van een afstandje heel creepy. YOU WIN.")
+ }
+
+
+
+   </script>
+  </body>
+  </html>
